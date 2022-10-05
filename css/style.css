@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Lato&family=Lora:wght@400;500;600;700&family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+@font-face {
+  src: url("../fonts/Gravity-Regular.otf");
+  font-family: 'Gravity-Regular'
+}
+@font-face {
+  src: url("../fonts/Gravity-Light.otf");
+  font-family: 'Gravity-Light'
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	min-height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+  box-sizing: border-box;
+  background-color: #E6EFE9;
+  font-family: 'Gravity-Light';
+  color: white;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/******************* 
+  begin after reset 
+********************/
+@media (min-width: 1px) {
+  #wrapper {
+    background-color: #69A2B0;
+    min-height: 100vh;
+    font-size: 1.2em;
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+  }
+  header, footer {
+     background-color: #659157;
+     background-color: #739868;
+  }
+  .multiple_marios {
+    border-top: solid 3px black;
+    border-bottom: solid 2px black;
+    height: 10em;
+    padding: 3.5em;
+    margin: 2em 0em;
+    background: url("images/oldmario-removebg-preview.png") repeat-x 90% 15%,
+                url("../images/yoshi.png") repeat-x 10% 40%,
+                url("../images/sun.png") no-repeat,
+                url("../images/pipe-removebg-preview.png") repeat-x 55% 0%,
+                url("../images/cloud_small.png") repeat-x 70% 0%
+                #a6c8ff;
+    box-shadow:
+                0 -3em 5em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(226, 226, 226),
+                0.1em 0.3em 7em rgba(0,0,0,0.3);
+  }
+  header {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  nav {
+    padding: 0;
+  }
+  footer {
+    padding: 2em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    box-shadow:
+    0 -3em 5em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(226, 226, 226),
+    0.1em 0.3em 7em rgba(0,0,0,0.3);
+    margin-top: 2em;
+  }
+  section {
+    padding: 1em;
+    border: 1px solid lightgray;
+  }
+  #h2ArrayOfStudents, #h1-landing-2 {
+    padding: 1em 0em;
+    font-size: 1.2em;    
+  }
+  #h1-landing {
+    font-size: 1.5em;
+  }
+  .landing-2 li {
+    padding: 0.1em 0em;
+  }
+  #target-name {
+    font-style: bold;
+    font-weight: 600;
+    padding-top: 1em;
+    font-size: 1.3em;
+  }
+  #landing-list ul {
+    list-style-type:square;
+    padding-left: 2em;
+  }
+  #landing-list li {
+    padding-top: 0.4em;
+  }
+  #targetMatch {
+    padding: 1em;
+  }
+  .good {
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: black;
+    margin: 1em 0;
+    padding: 1em;
+  }
+  .warning {
+    border: 1px solid darkred;
+    border-radius: 20px;
+    background-color: #ce9191;
+    color: white;
+    margin: 1em 0;
+    padding: 1em;
+  }
+  #nameAddedMessage{
+    padding-left: 1em;
+    line-height: 25px;
+  }
+  .part-two {
+    background-color: rgb(64, 66, 70);
+  }
+  .part {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  #storeNums, #evenNumbersInArray  {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  #number-array-ul {
+    list-style-type: disc;
+    padding-left: 2em;
+  }
+  #Arrays-and-numbers {
+    padding: 1em 0em;
+    line-height: 30px;
+  }
+  #h1-part-one, #p-id-nums-to-zero, #h2ArrayId, #count-down-h2 {
+    padding-top: 1.5em;
+  }
+  #countNumsToZero, #countUpToZero, #array-of-numbers-2, #sum-array, #count-down-array {
+    font-size: 1.1em;
+    color: white;
+    padding: 2em;
+  }
+  #array-of-numbers-2 {
+    line-height: 30px;
+    list-style-type: circle;
+  }
+  .top a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+  }
+  .top {
+    margin: 0 auto;
+    padding-left: 3em;
+  }
+}
